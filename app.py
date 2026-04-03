@@ -4,6 +4,8 @@ import string
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+
+nltk.data.path.append('./nltk_data')
 ps = PorterStemmer()
 
 def text_transform(text):
