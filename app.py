@@ -14,6 +14,7 @@ nltk.data.path.append(nltk_data_dir)
 # Download necessary NLTK corpora if not present
 nltk.download('punkt', download_dir=nltk_data_dir, quiet=True)
 nltk.download('stopwords', download_dir=nltk_data_dir, quiet=True)
+nltk.download('punkt_tab', download_dir=nltk_data_dir, quiet=True)
 
 ps = PorterStemmer()
 
