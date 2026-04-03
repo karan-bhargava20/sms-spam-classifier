@@ -1,0 +1,14 @@
+# Virtual environment
+venv/
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset / large files (optional)
+*.csv
+*.xlsx
+
+# Streamlit cache
+.streamlit/
